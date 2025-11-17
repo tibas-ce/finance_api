@@ -45,3 +45,13 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 end
+
+# gems para autenticação e segurança JWT
+# Devise - gem de autenticação de usuários
+gem "devise"
+# Integra o Devise com a geração de tokens JWT
+gem "devise-jwt"
+# A biblioteca que realmente cria e lê os tokens
+gem "jwt"
+# gem para formatar respostas JSON
+gem "active_model_serializers"
